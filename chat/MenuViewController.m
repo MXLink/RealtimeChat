@@ -126,6 +126,8 @@
 	self.navigationItem.rightBarButtonItem = buttonLogin;
 }
 
+#pragma mark - Table view data source
+
 //-------------------------------------------------------------------------------------------------------------------------------------------------
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 //-------------------------------------------------------------------------------------------------------------------------------------------------
@@ -151,6 +153,8 @@
 
 	return cell;
 }
+
+#pragma mark - Table view delegate
 
 //-------------------------------------------------------------------------------------------------------------------------------------------------
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
